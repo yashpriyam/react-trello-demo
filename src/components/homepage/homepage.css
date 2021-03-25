@@ -1,0 +1,23 @@
+.homepage-container {
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.listadd-btn {
+  padding: 5px;
+  border-radius: 5px;
+  backface-visibility: none;
+  background-color: pink;
+  cursor: pointer;
+}
+
+.listadd-btn:hover {
+  transform: scale(1.1);
+}
+
+.cardlist-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 10px;
+}
