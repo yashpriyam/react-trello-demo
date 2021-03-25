@@ -31,6 +31,8 @@ export const TaskCard = ({ card, cardIdx, cardlistIdx }) => {
       <button className="card-remove-btn" onClick={handleCardRemove}>
         X
       </button>
+      <br></br>
+      <label>Title</label>
       <input
         name="title"
         onChange={handleCardInput}
@@ -38,13 +40,18 @@ export const TaskCard = ({ card, cardIdx, cardlistIdx }) => {
         value={title}
         placeholder="title"
       />
-      <input
+      <br></br>
+      <label>Description</label>
+      <textarea
+        rows="4"
+        cols="15"
         name="description"
         onChange={handleCardInput}
         className="task-description"
         value={description}
         placeholder="description"
-      />
+      ></textarea>
+      <br></br>
     </div>
   );
 };

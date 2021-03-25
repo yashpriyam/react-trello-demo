@@ -4,7 +4,7 @@
   align-items: center;
   margin: 10px;
   border: 2px solid black;
-  max-width: 240px;
+  max-width: 320px;
   padding-top: 20px;
   background-color: cornsilk;
 }
@@ -12,6 +12,7 @@
 .card-list-container {
   height: 70vh;
   overflow: scroll;
+  width: 300px;
 }
 
 .card-add-btn {
@@ -32,4 +33,13 @@
   font-size: 14px;
   text-align: center;
   font-weight: bold;
+}
+
+.card-number {
+  height: 20px;
+  width: 20px;
+  padding: 4px;
+  text-align: center;
+  background-color: yellowgreen;
+  border-radius: 50%;
 }

@@ -1,23 +1,29 @@
 .task-card {
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
-  margin: 18px;
+  margin: 10px;
   box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.1);
-  padding: 12px;
+  padding: 4px 18px;
   background-color: #eee;
-  max-width: 140px;
+  max-width: 240px;
 }
 
 .task-title {
-  margin: 5px;
+  margin: 0px 5px;
   max-width: inherit;
+  padding: 4px;
 }
 .task-description {
-  margin: 5px;
+  margin: 0px 5px;
   max-width: inherit;
+  padding: 4px;
 }
 
 .card-remove-btn {
   display: flex;
+  justify-content: center;
+  max-width: 25px;
   padding: 5px;
   margin-top: 5px;
   border-radius: 5px;

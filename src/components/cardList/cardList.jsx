@@ -63,6 +63,9 @@ export const CardList = ({ cardlist, cardlistIdx }) => {
       <button className="listadd-btn" onClick={handleListRemove}>
         Remove List
       </button>
+      <span className="card-number">
+        {updatedState[cardlistIdx].cards.length}
+      </span>
       <div className="card-list-container">
         {cards.map((card, cardIdx, arr) => (
           <TaskCard
