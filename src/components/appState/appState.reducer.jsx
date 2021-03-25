@@ -1,7 +1,6 @@
-export const appState =
-  JSON.parse(localStorage.getItem("userData")).state.length === 0
-    ? []
-    : JSON.parse(localStorage.getItem("userData")).state;
+export const appState = JSON.parse(localStorage.getItem("userData"))
+  ? JSON.parse(localStorage.getItem("userData")).state
+  : [];
 
 export const reducer = (state, action) => {
   switch (action.type) {

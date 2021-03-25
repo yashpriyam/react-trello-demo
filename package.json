@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "homepage": "https://friendly-jackson-b30eee.netlify.app/",
+  "main": "src/index.js",
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",
