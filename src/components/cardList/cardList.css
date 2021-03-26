@@ -20,7 +20,8 @@
   margin-top: 5px;
   border-radius: 5px;
   backface-visibility: none;
-  background-color: pink;
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 
@@ -40,6 +41,7 @@
   width: 20px;
   padding: 4px;
   text-align: center;
-  background-color: yellowgreen;
+  background-color: pink;
   border-radius: 50%;
+  color: black;
 }
